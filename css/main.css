@@ -109,7 +109,7 @@
 }
 @media only screen and (orientation: portrait) {
   .night {
-    background-image: url('imagen.jpg')
+    background-image: url('imagen.jpg');
     background-size: cover;
     background-position: top center;
   }
