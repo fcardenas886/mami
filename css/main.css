@@ -1755,3 +1755,53 @@ h1 {
 }
 
 /* Agregar más estilos según sea necesario */
+
+
+/* ================================
+   Responsive design for mobiles
+   ================================ */
+@media only screen and (max-width: 600px) {
+  body {
+    align-items: center;
+    overflow-y: scroll;
+  }
+
+  .titulo {
+    font-size: 1.2em;
+    letter-spacing: 2px;
+    padding: 0 10px;
+  }
+
+  .titulo-segundo {
+    font-size: 1em;
+    padding: 0 10px;
+  }
+
+  .titulos-container {
+    width: 100%;
+    padding: 10px;
+    top: 5%;
+  }
+
+  .flower {
+    transform: scale(0.6);
+  }
+
+  .flowers {
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0 10px;
+  }
+
+  .night {
+    background-position: center center;
+    background-size: cover;
+  }
+
+  /* Optional performance tweak for older mobile devices */
+  @media (max-device-pixel-ratio: 1) {
+    .flower__light {
+      display: none;
+    }
+  }
+}
