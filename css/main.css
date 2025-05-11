@@ -10,6 +10,110 @@
   --dark-color: #000;
 }
 
+/* Media Query para pantallas de hasta 600px (móviles) */
+@media only screen and (max-width: 600px) {
+  /* Estilos específicos para dispositivos con un ancho máximo de 600px */
+  #lyrics {
+    font-size: 14px; /* Reduce el tamaño del texto para dispositivos más pequeños */
+    margin-bottom: 530px;
+    letter-spacing: 3px;
+  }
+
+  .titulos-container {
+    top: 10%; /* Ajustar la posición vertical en móviles */
+    width: 95%;
+  }
+
+  .titulo {
+    font-size: 1.5em;
+    letter-spacing: 3px;
+  }
+
+  .titulo-segundo {
+    font-size: 1.2em;
+    margin-top: 8px;
+  }
+
+  .night {
+    height: 70%; /* Aumentar la altura de la noche en móviles si es necesario */
+  }
+
+  .flowers {
+    width: 100%;
+    justify-content: space-around; /* Distribuir las flores en el ancho */
+  }
+
+  .flower {
+    margin: 0; /* Eliminar márgenes individuales */
+  }
+
+  .flower--1 {
+    transform: translateX(-25vw) scale(0.5);
+  }
+
+  .flower--2 {
+    transform: scale(0.6);
+  }
+
+  .flower--3 {
+    transform: translateX(25vw) scale(0.4);
+  }
+
+  .flower__line {
+    height: 60px; /* Reducir aún más el tallo en móviles */
+  }
+
+  .grow-ans {
+    /* Ajustes si es necesario */
+  }
+
+  .growing-grass {
+    /* Ajustes si es necesario */
+  }
+
+  .long-g {
+    /* Ajustar la dispersión de las hojas largas */
+  }
+
+  .long-g--0 {
+    transform: translateX(-45vw);
+  }
+
+  .long-g--1 {
+    transform: translateX(-30vw);
+  }
+
+  .long-g--2 {
+    transform: translateX(-15vw);
+  }
+
+  .long-g--3 {
+    transform: translateX(0vw);
+  }
+
+  .long-g--4 {
+    transform: translateX(15vw);
+  }
+
+  .long-g--5 {
+    transform: translateX(30vw);
+  }
+
+  .long-g--6 {
+    transform: translateX(45vw);
+  }
+
+  .long-g--7 {
+    transform: translateX(60vw);
+  }
+}
+
+/* Media Query para pantallas de entre 601px y 768px (tabletas pequeñas) */
+@media only screen and (min-width: 601px) and (max-width: 768px) {
+  /* ... estilos para tabletas pequeñas ... */
+}
+
+
 body {
   display: flex;
   align-items: flex-end;
